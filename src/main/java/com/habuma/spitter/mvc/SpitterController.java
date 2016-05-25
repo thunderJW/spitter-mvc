@@ -22,7 +22,7 @@ public class SpitterController {
 		model.addAttribute("changeName", username + " lalal");
 		Spittle sp = new Spittle();
 		sp.setName(username);
-		sp.setAge(28);
+		sp.setAge(29);
 		sp.setAddress(address);
 		System.out.println("address:" + address);
 		model.addAttribute("sp", sp);
