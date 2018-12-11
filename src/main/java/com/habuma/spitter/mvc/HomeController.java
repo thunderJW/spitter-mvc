@@ -23,7 +23,7 @@ public class HomeController {
 		model.put("name", name);
 		Spittle sp = new Spittle();
 		sp.setName("Jack");
-		sp.setAge(27);
+		sp.setAge(21);
 		sp.setAddress("USA");
 		model.put("sp", sp);
 		return "home";
